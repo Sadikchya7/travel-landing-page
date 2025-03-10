@@ -1,0 +1,28 @@
+body {
+  margin: 0 auto;
+}
+header {
+  max-height: 1070px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+nav {
+  height: 33px;
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 44px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-title {
+  font-family: Gilda Display;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: 10%;
+  color: #25a59e;
+}
+.nav-burger-icon {
+  height: 23px;
+  width: 23px;
+}
