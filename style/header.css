@@ -1,8 +1,9 @@
 body {
+  font-family: "Gilda Display";
   margin: 0 auto;
 }
 header {
-  max-height: 1070px;
+  height: 1070px;
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -15,14 +16,109 @@ nav {
   justify-content: space-between;
 }
 .nav-title {
-  font-family: Gilda Display;
-  font-weight: 400;
+  font-weight: bold;
   font-size: 28px;
   line-height: 100%;
-  letter-spacing: 10%;
+  letter-spacing: 2.34px;
   color: #25a59e;
 }
 .nav-burger-icon {
   height: 23px;
   width: 23px;
+}
+.header-content {
+  width: 1340px;
+  margin: 0 auto;
+}
+.content-container {
+  height: 1070px;
+  overflow: hidden;
+  margin: 0 auto;
+  position: absolute;
+}
+.hero-title {
+  text-align: center;
+  width: 1340px;
+  height: 340px;
+  font-weight: 400;
+  font-size: 170px;
+  line-height: 170px;
+  margin-top: 200px;
+  .color {
+    color: #25a59e;
+  }
+}
+
+.circle-border {
+  position: absolute;
+  height: 1005px;
+  width: 1005px;
+  border-radius: 50%;
+  border: 3px solid #ee8f39;
+  margin: 0 auto;
+  margin-top: 84px;
+}
+.centered-axis-x {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.circle {
+  position: absolute;
+  height: 925px;
+  width: 925px;
+  border-radius: 50%;
+  background-color: #ee8f39;
+  margin: 0 auto;
+  top: calc(36px);
+  box-shadow: 0px 0px 239px 0 #25a59e;
+}
+.blog-photo {
+  left: 671px;
+  top: 338px;
+  position: absolute;
+  aspect-ratio: 611 / 408;
+  height: 573px;
+}
+
+.content-box {
+  position: absolute;
+  bottom: 0;
+  height: 160px;
+  width: 1200px;
+  background-color: #25a59e;
+  color: white;
+  .content-box-content {
+    width: 1080px;
+    display: inline-flex;
+    padding: 50px 60px;
+    justify-content: space-between;
+    .content-box-text {
+      display: inline-block;
+      width: 365.5px;
+      height: 64px;
+      font-family: Urbanist;
+      font-size: 18px;
+      line-height: 32px;
+      letter-spacing: 0%;
+    }
+    .line {
+      display: inline-block;
+      height: 63px;
+      width: 0px;
+      border: 1px solid white;
+    }
+    .content-box-text-second {
+      display: inline-block;
+      width: 221px;
+      height: 80px;
+      border-width: 0.2px;
+      font-family: Gilda Display;
+      font-weight: 400;
+      font-size: 28px;
+      line-height: 40px;
+      letter-spacing: 0%;
+      text-align: center;
+    }
+  }
 }
