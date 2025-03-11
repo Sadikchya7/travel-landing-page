@@ -1,0 +1,80 @@
+.reason {
+  display: block;
+  max-width: 1440px;
+  height: 864px;
+  margin: 100px 160px;
+}
+.reason-hero {
+  width: 879px;
+  height: 204px;
+  gap: 24px;
+  margin: 0 auto;
+  padding-top: 55px;
+  text-align: center;
+}
+h3 {
+  display: inline-block;
+  width: 670px;
+  height: 84px;
+  border-width: 0.2px;
+  font-family: Gilda Display;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 84px;
+  letter-spacing: 0%;
+  margin: 10px 0;
+}
+p {
+  margin: 0;
+  width: 879px;
+  height: 96px;
+  font-family: Urbanist;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #737373;
+}
+.reason-content {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 1200px;
+  height: 400px;
+
+  margin-top: 66px;
+  .reason-card {
+    width: 381.33px;
+    height: 400px;
+    border-top: 4px solid #25a59e;
+    box-shadow: 10px 26px 150px 0px #4343641a;
+
+    .reason-card-content {
+      width: 317.3333435058594px;
+      height: 208px;
+      margin: 32px;
+    }
+    .title-card {
+      width: 317.3333435058594px;
+      height: 124px;
+      border-width: 0.4px;
+      font-family: Gilda Display;
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 62px;
+      letter-spacing: 0%;
+      color: #262626;
+      margin-bottom: 20px;
+    }
+    .content-card {
+      width: 317.3333435058594px;
+      height: 64px;
+      font-family: Urbanist;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 32px;
+      letter-spacing: 0%;
+      color: #737373;
+    }
+  }
+}
