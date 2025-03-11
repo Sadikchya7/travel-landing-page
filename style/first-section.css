@@ -1,11 +1,11 @@
 .destinations {
   display: block;
   max-width: 1440px;
-  height: 1270px;
-  padding: 100px 160px;
+  max-height: 1270px;
+  margin: 100px 160px;
   gap: 60px;
+  background-color: #ffffff;
 }
-
 .des-hero {
   display: inline-flex;
   align-items: center;
@@ -96,5 +96,59 @@ h2 {
       width: 30px;
       margin: 9px;
     }
+  }
+}
+.list-of-destination {
+  margin: 0 auto;
+
+  justify-content: space-between;
+  margin-top: 64px;
+  width: 1200px;
+  height: 848px;
+}
+.destination-card {
+  width: 370.66px;
+  height: 404px;
+  margin: 0 12px;
+  margin-bottom: 36px;
+  display: inline-block;
+  background-color: #ffffff;
+  border: 1px solid #f2f2f2;
+
+  box-shadow: -55.45px 50.41px 98px 0px #3736640a;
+
+  box-shadow: 105.45px 50.41px 78.04px 0px #3736640d;
+}
+.place-image {
+  margin: 15px;
+  width: 338.6666564941406px;
+  height: 248px;
+}
+.card-content {
+  width: 338.6666564941406px;
+  height: 76px;
+  margin: 0 auto;
+
+  .card-title {
+    width: 330.6666564941406px;
+    height: 36px;
+    font-family: Urbanist;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .card-description {
+    width: 298.6666564941406px;
+    height: 32px;
+    font-family: Urbanist;
+
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0%;
+  }
+  .card-location {
+    width: 24px;
+    height: 24px;
+    margin-right: 7px;
   }
 }
