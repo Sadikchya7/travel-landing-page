@@ -3,6 +3,7 @@ body {
   margin: 0 auto;
 }
 header {
+  display: block;
   height: 1070px;
   max-width: 1440px;
   margin: 0 auto;
@@ -31,7 +32,7 @@ nav {
   margin: 0 auto;
 }
 .content-container {
-  height: 1070px;
+  height: 1037px;
   overflow: hidden;
   margin: 0 auto;
   position: absolute;
