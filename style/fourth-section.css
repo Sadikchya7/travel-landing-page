@@ -1,0 +1,28 @@
+.documentation {
+  width: 1440px;
+  max-height: 1016px;
+  margin: 0 auto;
+}
+.doc-title {
+  width: 680px;
+  height: 168px;
+  margin: 0 auto;
+  border-width: 0.2px;
+  font-family: Gilda Display;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 84px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #262626;
+  margin-top: 100px;
+}
+.video {
+  width: 1440px;
+  height: 600px;
+  .video-img {
+    margin-top: 55px;
+    width: 1440px;
+    height: 600px;
+  }
+}
