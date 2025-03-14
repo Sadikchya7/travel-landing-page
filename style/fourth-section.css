@@ -1,6 +1,6 @@
 .documentation {
   width: 1440px;
-  max-height: 1016px;
+  height: 1016px;
   margin: 0 auto;
 }
 .doc-title {
@@ -18,10 +18,10 @@
   margin-top: 100px;
 }
 .video {
+  margin-top: 55px;
   width: 1440px;
   height: 600px;
   .video-img {
-    margin-top: 55px;
     width: 1440px;
     height: 600px;
   }
