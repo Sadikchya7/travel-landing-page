@@ -1,7 +1,7 @@
 .reason {
   display: block;
   max-width: 1440px;
-  height: 864px;
+  max-height: 864px;
   margin: 100px 160px;
 }
 .reason-hero {
@@ -75,6 +75,92 @@ p {
       line-height: 32px;
       letter-spacing: 0%;
       color: #737373;
+    }
+    .details {
+      display: inline-flex;
+      width: 148px;
+      height: 24px;
+      margin-top: 62px;
+      margin-left: 181px;
+      justify-content: center;
+    }
+    .detail-text {
+      display: inline-block;
+      width: 112px;
+      height: 24px;
+      border-width: 0.4px;
+      font-family: Gilda Display;
+      font-weight: 400px;
+      font-size: 20px;
+      line-height: 100%;
+      letter-spacing: 0%;
+      color: #25a59e;
+    }
+    .arrow {
+      display: inline-flex;
+      width: 24px;
+      height: 24px;
+      margin-left: 12px;
+    }
+  }
+  .reason-card-colored {
+    width: 381.33px;
+    height: 400px;
+    background-color: #25a59e;
+    box-shadow: 10px 26px 150px 0px #4343641a;
+
+    .reason-card-content {
+      width: 317.3333435058594px;
+      height: 208px;
+      margin: 32px;
+    }
+    .title-card {
+      width: 317.3333435058594px;
+      height: 124px;
+      border-width: 0.4px;
+      font-family: Gilda Display;
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 62px;
+      letter-spacing: 0%;
+      color: #ffffff;
+      margin-bottom: 20px;
+    }
+    .content-card {
+      width: 317.3333435058594px;
+      height: 64px;
+      font-family: Urbanist;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 32px;
+      letter-spacing: 0%;
+      color: #ffffffcc;
+    }
+    .details {
+      display: inline-flex;
+      width: 148px;
+      height: 24px;
+      margin-top: 62px;
+      margin-left: 181px;
+      justify-content: center;
+    }
+    .detail-text {
+      display: inline-block;
+      width: 112px;
+      height: 24px;
+      border-width: 0.4px;
+      font-family: Gilda Display;
+      font-weight: 400px;
+      font-size: 20px;
+      line-height: 100%;
+      letter-spacing: 0%;
+      color: #ffffff;
+    }
+    .arrow {
+      display: inline-flex;
+      width: 24px;
+      height: 24px;
+      margin-left: 12px;
     }
   }
 }
