@@ -45,9 +45,9 @@ nav {
   font-size: 170px;
   line-height: 170px;
   margin-top: 200px;
-  .color {
-    color: #25a59e;
-  }
+}
+.color {
+  color: #25a59e;
 }
 
 .circle-border {
