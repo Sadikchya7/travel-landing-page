@@ -13,18 +13,19 @@
   margin: 0 auto;
   width: 1200px;
   height: 162px;
+  h2 {
+    display: inline-block;
+    width: 505px;
+    height: 168px;
+    border-width: 0.2px;
+    font-family: Gilda Display;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 84px;
+    letter-spacing: 0%;
+  }
 }
-h2 {
-  display: inline-block;
-  width: 505px;
-  height: 168px;
-  border-width: 0.2px;
-  font-family: Gilda Display;
-  font-weight: 400;
-  font-size: 72px;
-  line-height: 84px;
-  letter-spacing: 0%;
-}
+
 .des-search {
   text-align: end;
   display: inline-block;
@@ -150,5 +151,31 @@ h2 {
     width: 24px;
     height: 24px;
     margin-right: 7px;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .destinations {
+    max-width: 1300px;
+    max-height: 1270px;
+    margin: 100 auto;
+  }
+  .des-hero {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1200px;
+    height: 162px;
+    h2 {
+      display: inline-block;
+      width: 505px;
+      height: 168px;
+      border-width: 0.2px;
+      font-family: Gilda Display;
+      font-weight: 400;
+      font-size: 72px;
+      line-height: 84px;
+      letter-spacing: 0%;
+    }
   }
 }

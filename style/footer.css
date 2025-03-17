@@ -1,0 +1,106 @@
+footer {
+  width: 1440px;
+  height: 567px;
+  margin: 0 auto;
+}
+.foot-hero {
+  display: inline-flex;
+  justify-content: center;
+  width: 1440px;
+  height: 132px;
+  /* margin-top: 50px; */
+  border-bottom: 2px solid #d9d9d9;
+}
+.hero-content {
+  margin: 0 22px;
+  width: 1200px;
+  height: 84px;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  h2 {
+    font-family: Gilda Display;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 84px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .click-box {
+    width: 147px;
+    height: 54px;
+    background-color: #25a59e;
+    color: white;
+    text-align: center;
+
+    h6 {
+      margin: 16px;
+      font-family: Urbanist;
+      font-weight: 600;
+      font-size: 18px;
+    }
+  }
+}
+.foot-content {
+  margin-top: 100px;
+
+  width: 1440px;
+  height: 207px;
+  display: inline-flex;
+  justify-content: space-between;
+  .contact {
+    width: 313px;
+    height: 207px;
+    display: inline-block;
+    margin-left: 133px;
+
+    .contact-content {
+      width: 313px;
+      height: 117px;
+      gap: 20px;
+      h4 {
+        width: 91px;
+        height: 33px;
+        border-width: 0.7px;
+        font-family: Gilda Display;
+        font-weight: 400px;
+        font-size: 28px;
+        line-height: 100%;
+        letter-spacing: 10%;
+        margin: 0;
+        color: #25a59e;
+      }
+      h6 {
+        width: 313px;
+        height: 64px;
+        font-family: Urbanist;
+        font-weight: 500px;
+        font-size: 18px;
+        line-height: 32px;
+        letter-spacing: 0%;
+        color: #595959;
+        margin: 16px 0;
+      }
+    }
+    .social-links {
+      width: 184px;
+      height: 42px;
+
+      margin-top: 48px;
+      .socials {
+        width: 40px;
+        height: 40px;
+
+        box-shadow: 105.45px 50.41px 121.04px 0px #2c1d3c40;
+      }
+    }
+  }
+  .navigation {
+    display: inline-block;
+    width: 463px;
+    height: 140px;
+    background-color: #25a552;
+    margin-top: 66px;
+    margin-right: 100px;
+  }
+}
