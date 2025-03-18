@@ -5,7 +5,7 @@ body {
 header {
   display: block;
   height: 1070px;
-  max-width: 1440px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 nav {
@@ -28,11 +28,11 @@ nav {
   width: 23px;
 }
 .header-content {
-  width: 1340px;
+  width: 1200px;
   margin: 0 auto;
 }
 .content-container {
-  max-width: 100%;
+  max-width: 1200px;
   height: 1037px;
   overflow: hidden;
   margin: 0 auto;
@@ -42,7 +42,6 @@ nav {
   margin: 0 auto;
   text-align: center;
   width: 90%;
-
   font-weight: 400;
   font-size: 10.625rem;
   line-height: 170px;
@@ -83,7 +82,6 @@ nav {
   aspect-ratio: 611 / 408;
   width: 53%;
 }
-
 .content-box {
   position: absolute;
   bottom: 0;
@@ -99,7 +97,6 @@ nav {
     .content-box-text {
       display: inline-block;
       width: 365.5px;
-      height: 64px;
       font-family: Urbanist;
       font-size: 18px;
       line-height: 32px;
@@ -125,387 +122,76 @@ nav {
     }
   }
 }
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 500px) {
+  header {
+    max-width: 375px;
+    height: 704px;
+  }
+  nav {
+    height: 60px;
+  }
+  .nav-title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .nav-burger-icon {
+    height: 23px;
+    width: 23px;
+  }
+  .header-content {
+    width: 375px;
+  }
   .content-container {
-    max-width: 100%;
-    height: 1037px;
-    overflow: hidden;
-    margin: 0 auto;
-    position: absolute;
+    max-width: 375px;
+    height: 700px;
   }
-  .content-box {
-    .content-box-content {
-      .content-box-text {
-        display: inline-block;
-        width: 323.5px;
-        height: 64px;
-        font-family: Urbanist;
-        font-size: 17px;
-        line-height: 32px;
-        letter-spacing: 0%;
-      }
-      .content-box-text-second {
-        display: inline-block;
-        width: 209px;
-        height: 80px;
-        border-width: 0.2px;
-        font-family: Gilda Display;
-        font-weight: 400;
-        font-size: 26px;
-        line-height: 40px;
-        letter-spacing: 0%;
-        text-align: center;
-      }
-    }
-  }
-}
-@media only screen and (max-width: 1200px) {
   .hero-title {
-    margin: 0 auto;
-    text-align: center;
-    width: 90%;
-    font-weight: 400;
-    font-size: 9.625rem;
-    line-height: 170px;
-    margin-top: 150px;
-  }
-  .content-container {
-    max-width: 100%;
-    height: 998px;
-    overflow: hidden;
-    margin: 0 auto;
-    position: absolute;
-  }
-}
-@media only screen and (max-width: 1100px) {
-  .hero-title {
-    font-size: 8.625rem;
-    line-height: 140px;
-    margin-top: 14%;
-  }
-  .content-container {
-    max-width: 100%;
-    height: 838px;
-    overflow: hidden;
-    margin: 0 auto;
-    position: absolute;
+    font-size: 3.25rem;
+    line-height: 100%;
+    margin-top: 20%;
   }
   .circle-border {
-    height: auto;
-    width: 905px;
-    border-radius: 50%;
-    border: 3px solid #ee8f39;
-    margin: 0 auto;
-    aspect-ratio: 1/1;
-    margin-top: 84px;
+    width: 605px;
+    height: 605px;
+    margin-top: 0px;
   }
   .circle {
-    aspect-ratio: 1/1;
-    position: absolute;
-    height: auto;
-    width: 825px;
-    border-radius: 50%;
-    background-color: #ee8f39;
-    margin: 0 auto;
-    top: calc(36px);
-    box-shadow: 0px 0px 239px 0 #25a59e;
+    width: 525px;
+    height: 525px;
+    box-shadow: 0px 0px 160px 0 #25a59e;
   }
   .blog-photo {
-    bottom: 134px;
-    position: absolute;
-    aspect-ratio: 611 / 408;
-    width: 53%;
-  }
-  .content-box {
-    position: absolute;
-    bottom: 0;
-    height: 16%;
-    width: 90%;
-    background-color: #25a59e;
-    color: white;
-    .content-box-content {
-      width: 90%;
-      display: inline-flex;
-      padding: 27px 48px;
-      justify-content: space-between;
-      .content-box-text {
-        display: inline-block;
-        width: 273.5px;
-        height: 64px;
-        font-family: Urbanist;
-        font-size: 15px;
-        line-height: 32px;
-      }
+    bottom: 245px;
 
-      .content-box-text-second {
-        display: inline-block;
-        width: 214px;
-        height: 80px;
-        border-width: 0.2px;
-        font-family: Gilda Display;
-        font-weight: 400;
-        font-size: 24px;
-        line-height: 40px;
-        letter-spacing: 0%;
-        text-align: center;
-      }
-    }
-  }
-}
-@media only screen and (max-width: 1000px) {
-  .hero-title {
-    font-size: 7.625rem;
-    line-height: 140px;
-    margin-top: 14%;
-  }
-  .content-container {
-    max-width: 100%;
-    height: 838px;
-    overflow: hidden;
-    margin: 0 auto;
-    position: absolute;
-  }
-  .circle-border {
-    height: auto;
-    width: 705px;
-    border-radius: 50%;
-    border: 3px solid #ee8f39;
-    margin: 0 auto;
-    aspect-ratio: 1/1;
-    margin-top: 84px;
-  }
-  .circle {
-    aspect-ratio: 1/1;
-    position: absolute;
-    height: auto;
-    width: 625px;
-    border-radius: 50%;
-    background-color: #ee8f39;
-    margin: 0 auto;
-    top: calc(36px);
-    box-shadow: 0px 0px 239px 0 #25a59e;
-  }
-  .blog-photo {
-    bottom: 123px;
-    position: absolute;
-    aspect-ratio: 611 / 408;
-    width: 53%;
+    width: 432.6px;
   }
   .content-box {
-    position: absolute;
-    bottom: 0;
-    height: 16%;
-    width: 90%;
-    background-color: #25a59e;
-    color: white;
+    height: 35%;
+    width: 100%;
     .content-box-content {
-      width: 90%;
-      display: inline-flex;
-      padding: 22px 45px;
-      justify-content: space-between;
+      padding: 0;
+      display: block;
+      padding: 21px 18px;
+      line-height: 38px;
+      justify-content: center;
       .content-box-text {
-        display: inline-block;
-        width: 252.5px;
-        height: 64px;
-        font-family: Urbanist;
-        font-size: 13px;
-        line-height: 32px;
-        letter-spacing: 0%;
+        display: block;
+        width: 335px;
+        font-size: 16px;
+        text-align: center;
+        height: 48px;
+        line-height: 24px;
       }
       .line {
-        display: inline-block;
-        height: 63px;
-        width: 0px;
-        border: 1px solid white;
+        height: 0px;
+        width: 100%;
+        border: 0.5px solid white;
       }
       .content-box-text-second {
-        display: inline-block;
-        width: 214px;
-        height: 80px;
-        border-width: 0.2px;
-        font-family: Gilda Display;
-        font-weight: 400;
-        font-size: 21px;
-        line-height: 40px;
-        letter-spacing: 0%;
-        text-align: center;
-      }
-    }
-  }
-}
-@media only screen and (max-width: 900px) {
-  .hero-title {
-    font-size: 7.125rem;
-    line-height: 140px;
-    margin-top: 14%;
-  }
-  .content-container {
-    max-width: 100%;
-    height: 678px;
-    overflow: hidden;
-    margin: 0 auto;
-    position: absolute;
-  }
-  .circle-border {
-    display: none;
-  }
-  .circle {
-    display: none;
-  }
-  .blog-photo {
-    display: none;
-  }
-  .content-box {
-    position: absolute;
-    bottom: 0;
-    height: 16%;
-    width: 90%;
-    background-color: #25a59e;
-    color: white;
-    .content-box-content {
-      width: 90%;
-      display: inline-flex;
-      padding: 14px 34px;
-      justify-content: space-between;
-      .content-box-text {
-        display: inline-block;
-        width: 192.5px;
-        height: 64px;
-        font-family: Urbanist;
-        font-size: 13px;
-        line-height: 32px;
-        letter-spacing: 0%;
-      }
-      .line {
-        display: inline-block;
-        height: 63px;
-        width: 0px;
-        border: 1px solid white;
-      }
-      .content-box-text-second {
-        display: inline-block;
-        width: 146px;
-        height: 80px;
-        border-width: 0.2px;
-        font-family: Gilda Display;
-        font-weight: 400;
-        font-size: 19px;
-        line-height: 40px;
-        letter-spacing: 0%;
-        text-align: center;
-      }
-    }
-  }
-}
-@media only screen and (max-width: 700px) {
-  .hero-title {
-    font-size: 7.125rem;
-    line-height: 140px;
-    margin-top: 14%;
-  }
-  .content-container {
-    max-width: 100%;
-    height: 678px;
-    overflow: hidden;
-    margin: 0 auto;
-    position: absolute;
-  }
-
-  .content-box {
-    position: absolute;
-    bottom: 0;
-    height: 16%;
-    width: 90%;
-    background-color: #25a59e;
-    color: white;
-    .content-box-content {
-      width: 90%;
-      display: inline-flex;
-      padding: 15px 25px;
-      justify-content: space-between;
-      .content-box-text {
-        display: inline-block;
-        width: 132.5px;
-        height: 64px;
-        font-family: Urbanist;
-        font-size: 13px;
-        line-height: 32px;
-        letter-spacing: 0%;
-      }
-      .line {
-        display: inline-block;
-        height: 63px;
-        width: 0px;
-        border: 1px solid white;
-      }
-      .content-box-text-second {
-        display: inline-block;
-        width: 146px;
-        height: 80px;
-        border-width: 0.2px;
-        font-family: Gilda Display;
-        font-weight: 400;
-        font-size: 19px;
-        line-height: 40px;
-        letter-spacing: 0%;
-        text-align: center;
-      }
-    }
-  }
-}
-@media only screen and (max-width: 600px) {
-  .hero-title {
-    font-size: 7.125rem;
-    line-height: 140px;
-    margin-top: 14%;
-  }
-  .content-container {
-    max-width: 100%;
-    height: 678px;
-    overflow: hidden;
-    margin: 0 auto;
-    position: absolute;
-  }
-
-  .content-box {
-    display: none;
-    position: absolute;
-    bottom: 0;
-    height: 16%;
-    width: 90%;
-    background-color: #25a59e;
-    color: white;
-    .content-box-content {
-      width: 90%;
-      display: inline-flex;
-      padding: 15px 25px;
-      justify-content: space-between;
-      .content-box-text {
-        display: inline-block;
-        width: 132.5px;
-        height: 64px;
-        font-family: Urbanist;
-        font-size: 13px;
-        line-height: 32px;
-        letter-spacing: 0%;
-      }
-      .line {
-        display: inline-block;
-        height: 63px;
-        width: 0px;
-        border: 1px solid white;
-      }
-      .content-box-text-second {
-        display: inline-block;
-        width: 146px;
-        height: 80px;
-        border-width: 0.2px;
-        font-family: Gilda Display;
-        font-weight: 400;
-        font-size: 19px;
-        line-height: 40px;
-        letter-spacing: 0%;
-        text-align: center;
+        display: block;
+        width: 335px;
+        height: 32px;
+        font-size: 20px;
       }
     }
   }
