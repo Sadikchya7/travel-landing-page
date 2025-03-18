@@ -1,11 +1,10 @@
 .documentation {
-  width: 1440px;
-  height: 1016px;
+  width: 1200px;
   margin: 0 auto;
 }
 .doc-title {
   width: 680px;
-  height: 168px;
+
   margin: 0 auto;
   border-width: 0.2px;
   font-family: Gilda Display;
@@ -19,10 +18,9 @@
 }
 .video {
   margin-top: 55px;
-  width: 1440px;
-  height: 600px;
+  width: 1200px;
   .video-img {
-    width: 1440px;
-    height: 600px;
+    width: 1200px;
+    height: 540px;
   }
 }

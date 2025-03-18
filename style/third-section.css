@@ -1,21 +1,16 @@
 .memorable {
-  width: 1440px;
-  height: 685px;
+  width: 1200px;
   margin: 0 auto;
-
   .content-group {
     display: inline-block;
     width: 534px;
-    height: 394px;
-    margin: 133px 39px 133px 133px;
+    margin: 133px 10px;
   }
   .mem-text-box {
     display: inline-block;
     width: 534px;
-    height: 292px;
     .mem-hero {
       width: 534px;
-      height: 168px;
       border-width: 0.2px;
       font-family: Gilda Display;
       font-weight: 400;
@@ -26,7 +21,6 @@
     .mem-description {
       margin-top: 28px;
       width: 534px;
-      height: 96px;
       font-family: Urbanist;
       font-weight: 500;
       font-size: 18px;
@@ -37,9 +31,6 @@
   .mem-botton {
     margin-top: 48px;
     width: 288px;
-    height: 54px;
-
-    gap: 32px;
     .option {
       display: inline-flex;
       justify-content: center;
@@ -49,7 +40,6 @@
       height: 54px;
       .option-text {
         width: 77px;
-        height: 22px;
         color: white;
         font-family: Urbanist;
         font-weight: 600;
@@ -66,11 +56,10 @@
       background-color: transparent;
       border: none;
       width: 141px;
-      height: 54px;
+
       .button-text {
         text-decoration: underline;
         width: 115px;
-        height: 22px;
         color: #333333cc;
         font-family: Urbanist;
         font-weight: 600;
@@ -85,8 +74,7 @@
     position: absolute;
     display: inline-block;
     width: 640px;
-    height: 485px;
-    margin: 100px 100px 100px 0;
+    margin: 100px 0;
     .shape {
       width: 542px;
       height: 239px;

@@ -1,12 +1,12 @@
 footer {
-  width: 1440px;
+  width: 1200px;
   height: 567px;
   margin: 0 auto;
 }
 .foot-hero {
   display: inline-flex;
   justify-content: center;
-  width: 1440px;
+  width: 1200px;
   height: 132px;
   /* margin-top: 50px; */
   border-bottom: 2px solid #d9d9d9;
@@ -44,7 +44,7 @@ footer {
 .foot-content {
   margin-top: 100px;
 
-  width: 1440px;
+  width: 1200px;
   height: 207px;
   display: inline-flex;
   justify-content: space-between;

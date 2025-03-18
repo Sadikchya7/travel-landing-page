@@ -143,7 +143,7 @@ nav {
   }
   .content-container {
     max-width: 375px;
-    height: 700px;
+    height: 643px;
   }
   .hero-title {
     font-size: 3.25rem;
@@ -161,7 +161,7 @@ nav {
     box-shadow: 0px 0px 160px 0 #25a59e;
   }
   .blog-photo {
-    bottom: 245px;
+    bottom: 225px;
 
     width: 432.6px;
   }
@@ -171,7 +171,7 @@ nav {
     .content-box-content {
       padding: 0;
       display: block;
-      padding: 21px 18px;
+      padding: 11px 18px;
       line-height: 38px;
       justify-content: center;
       .content-box-text {
